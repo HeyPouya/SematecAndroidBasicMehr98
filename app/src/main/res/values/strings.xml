@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SematecAndroidBasicMehr98</string>
+    <string name="ok">OK</string>
+    <string name="please_enter_your_age">Please enter your age</string>
 </resources>

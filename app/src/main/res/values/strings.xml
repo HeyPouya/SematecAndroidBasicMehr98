@@ -2,4 +2,8 @@
     <string name="app_name">SematecAndroidBasicMehr98</string>
     <string name="ok">OK</string>
     <string name="please_enter_your_age">Please enter your age</string>
+    <string name="show_new_activity">show new activity</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="confirm">Confirm</string>
+    <string name="show_website">Show Website</string>
 </resources>

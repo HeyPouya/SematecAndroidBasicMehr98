@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sematec.sematecandroidbasicmehr98">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,17 +14,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TestHTMLActivity">
+        <activity android:name=".TestPermissionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".TestRecyclerActivity">
-        </activity>
+        <activity android:name=".TestAsyncHttpActivity"></activity>
+        <activity android:name=".TestHttpUrlConnectionActivity" />
+        <activity android:name=".TestHTMLActivity" />
+        <activity android:name=".TestRecyclerActivity" />
         <activity android:name=".TestThreadActivity" />
         <activity android:name=".TestNavigationDrawerActivity" />
         <activity android:name=".TestSharedPreferenceActivity" />
@@ -27,6 +33,12 @@
         <activity android:name=".TestActivityForResult" />
         <activity android:name=".TestActivity" />
         <activity android:name=".MainActivity" />
+
+        <receiver android:name=".TestBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

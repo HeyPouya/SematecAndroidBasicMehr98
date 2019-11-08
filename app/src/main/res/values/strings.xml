@@ -6,4 +6,9 @@
     <string name="please_enter_your_name">Please enter your name</string>
     <string name="confirm">Confirm</string>
     <string name="show_website">Show Website</string>
+    <string name="please_enter_your_family">Please enter your family</string>
+    <string name="please_enter_your_grade">Please enter your grade</string>
+    <string name="insert">insert</string>
+    <string name="read">Read</string>
+    <string name="show_alert_dialog">Show Alert Dialog</string>
 </resources>

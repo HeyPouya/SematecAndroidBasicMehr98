@@ -11,4 +11,7 @@
     <string name="insert">insert</string>
     <string name="read">Read</string>
     <string name="show_alert_dialog">Show Alert Dialog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
